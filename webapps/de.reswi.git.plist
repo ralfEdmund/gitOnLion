@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- See man pages for webapp.plist(5) and webappctl(8) for information about this example webapp.plist -->
+
+<plist version="1.0">
+<dict> 
+	<key>includeFiles</key>
+	<array>
+		<string>/etc/apache2/httpd_git.conf</string>
+	</array>
+	<key>name</key>
+	<string>de.reswi.git</string>
+        <key>requiredModuleNames</key>
+        <array>
+                <string>alias_module</string>
+                <string>cgi_module</string>
+                <string>env_module</string>
+        </array>
+	<key>sslPolicy</key>
+	<integer>1</integer>
+			<!-- 1:	UseSSLAlways -->
+</dict>
+</plist>
