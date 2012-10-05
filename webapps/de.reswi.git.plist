@@ -7,7 +7,7 @@
 <dict> 
 	<key>includeFiles</key>
 	<array>
-		<string>/etc/apache2/httpd_git.conf</string>
+		<string>/Library/Server/Web/Config/apache2/webapp_scripts/httpd_git.conf</string>
 	</array>
 	<key>name</key>
 	<string>de.reswi.git</string>
